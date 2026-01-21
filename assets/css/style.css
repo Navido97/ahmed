@@ -1052,3 +1052,52 @@ p {
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: auto;
+        padding-bottom: var(--spacing-xl);
+    }
+    
+    .hero-content {
+        padding-bottom: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: auto;
+        padding: calc(60px + var(--spacing-md)) var(--spacing-md) var(--spacing-lg);
+    }
+    
+    .hero-content {
+        gap: var(--spacing-md);
+    }
+    
+    .hero-image {
+        order: -1;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .image-frame {
+        max-width: 175px;
+        margin: 0 auto;
+    }
+    
+    .hero-text {
+        margin-bottom: 0;
+    }
+    
+    .hero-subtitle {
+        margin-bottom: var(--spacing-md);
+        font-size: 1rem;
+    }
+    
+    .hero-cta {
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .scroll-indicator {
+        display: none;
+    }
+}
